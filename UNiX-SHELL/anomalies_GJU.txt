@@ -1,0 +1,24 @@
+Anomalies :
+
+1- 
+ 
+étape : Ouvrir Cygwin64 Terminal. Saisir la commande : projet@192.168.102.92
+
+résultat :-bash: projet@192.168.102.92: command not found
+résutat attendu : demande du mot de passe de la machine virtuelle.
+
+2-
+étape :
+Nom utilisateur : projet, mot de passe : projet.
+
+résultat : mot de passe et nom utilisateur incorrect
+résultat attendu : connection à la machine virtuelle
+
+3-
+étape : éxécution du script
+
+résultat: -bash: ./projet.sh: Aucun fichier ou dossier de ce type
+résultat attendu : le script s'éxécute.
+
+
+

@@ -1,0 +1,12 @@
+UTILISER UN FICHIER .PROPERTIES
+
+I- Création d'un fichier .properties dans un dossier JDD
+
+II- Intégration dans notre Test
+
+    Properties propertyJDD = new Properties();
+    propertyJDD.load(new FileInputStream("Path de votre .properties"));
+
+    driver.get(propertyJDD.getProperty("votrePropriété'));
+    WebElement recherche = driver.findElement(By.xpath("//input[@type='"+ propertyJdd.getProperty("keyword") +"']"));
+        recherche.sendKeys(propertyJdd.getProperty("words"));

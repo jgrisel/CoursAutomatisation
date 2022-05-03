@@ -1,0 +1,20 @@
+Mini projet:
+
+Developper un script de deploiement d'application sur tomcat:
+		-Le script doit:
+		-gérer les états d'erreurs classiques (pre requis non respecté, ressources non présente...)
+		- décompressé le tar.gz s'il n'existe pas.
+		- deposer le jenkins.war si necessaire dans le repertoire de tomcat WebApp
+		-gestion de logs a toutes les étapes
+		- bonux vérifier le bon lancement de tomcat?
+
+
+
+DIE docuement d'installation et d'exploitation
+
+		-le document doit décrire le script et son utilisation
+		-le document doit préciser les prérequis à l'utilisation du script
+		- Le document doit décrire les étpaes manuelles pour reproduire le comportement du scriot.
+
+
+Ressources: Serveur d'application tomcat 8.5, jenkins.war
